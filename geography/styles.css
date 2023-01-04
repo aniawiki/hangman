@@ -14,6 +14,7 @@ h1.logo {
     margin-top: 70px;
     margin-bottom: 100px;
     text-shadow: 0 0 7px #000000, 0 0 10px #000000;
+    height: 50px;
 }
 .btn {
     text-align: center;
@@ -31,8 +32,24 @@ h1.logo {
     border: none;
     border-radius: 5px;
 }
-
+.menu_btn {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 32px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #0071c2;
+    color:rgb(216, 216, 216);
+    text-shadow: 0 0 3px #002872, 0 0 5px #03034e;
+    border: none;
+    border-radius: 5px;
+}
 .btn:hover {
+    cursor: pointer;
+    background-color: #c23700;
+}
+.menu_btn:hover {
     cursor: pointer;
     background-color: #c23700;
 }
@@ -41,4 +58,26 @@ p {
     display: flex; /* or display:grid */
     justify-content: center;
     font-size: 25px;
+}
+header.head2 {
+    margin-left: 500px;
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+section.to_menu {
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+section.img {
+    float: left;
+    width: 1000px;
+    background-color: #c23700;
+}
+.map {
+    width: 850px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border: 10px solid rgb(0, 31, 56);
 }
