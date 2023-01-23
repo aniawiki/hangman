@@ -88,7 +88,7 @@ section.img {
     position: absolute;
     margin-left: 800px;
 }
-.in {
+#in {
     left: 700px;
     top: 900px;
     width: 400px;
