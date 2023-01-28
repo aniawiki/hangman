@@ -104,3 +104,9 @@ section.img {
 .in:hover {
     border-color: #0059ff;
 }
+#txt {
+    position: fixed;
+    top: 400px;
+    left: 850px;
+    color: #ff0000;
+}

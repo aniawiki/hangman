@@ -2,7 +2,7 @@ const list1 = [
     ["Albania", 205, 690, 100],
     ["Andorra", -80, 690, 40],
     ["Austria", 70, 530, 150],
-    ["Belarus", 230, 350, 170],
+    /*["Belarus", 230, 350, 170],
     ["Belgium", -50, 450, 100],
     ["Bosnia and Herzegovina", 160, 630, 100],
     ["Bulgaria", 260, 620, 150],
@@ -45,5 +45,5 @@ const list1 = [
     ["Turkey", 350, 650, 200],
     ["Ukraine", 270, 400, 250],
     ["United Kingdom", -180, 350, 200],
-    ["Vatican", 100, 720, 30]
+    ["Vatican", 100, 720, 30]*/
 ];
