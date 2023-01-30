@@ -107,6 +107,7 @@ section.img {
 #txt {
     position: fixed;
     top: 400px;
-    left: 850px;
     color: #ff0000;
+    white-space: nowrap;
+    visibility: hidden;
 }
