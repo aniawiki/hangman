@@ -111,3 +111,10 @@ section.img {
     white-space: nowrap;
     visibility: hidden;
 }
+#txt2 {
+    position: fixed;
+    top: 450px;
+    color: #ff0000;
+    white-space: nowrap;
+    visibility: hidden;
+}
