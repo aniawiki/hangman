@@ -9,13 +9,20 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function appearCongrats() {
+    if (time2 >= 60)
+        time2 = Math.round((time2-time2%60)/60) + " minutes " + time2%60;
+    message = "You comlished the test in " + time2 + " seconds!"
+    alert(message);
+    setTimeout(function() { location.href='menu.html' }, 1000);
+}
+
 function gameOver() {
     ptr.style.visibility = "hidden";
     setTimeout(function() { text.style.visibility = "hidden"; text2.style.visibility = "hidden"}, 1000);
     d = new Date();
-    time2 = (d.getTime() - time) / 1000;
-    
-    console.log(time2);
+    time2 = Math.round((d.getTime() - time) / 1000);
+    setTimeout(function() { appearCongrats()}, 1000);
 }
 
 function appearText(move) {

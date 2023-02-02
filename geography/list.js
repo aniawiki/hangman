@@ -2,8 +2,8 @@ const list1 = [
     ["Albania", 205, 690, 100],
     ["Andorra", -80, 690, 40],
     ["Austria", 70, 530, 150],
-    /*["Belarus", 230, 350, 170],
-    ["Belgium", -50, 450, 100],
+    ["Belarus", 230, 350, 170],
+    ["Belgium", -50, 480, 100],
     ["Bosnia and Herzegovina", 160, 630, 100],
     ["Bulgaria", 260, 620, 150],
     ["Croatia", 135, 605, 100],
@@ -31,7 +31,7 @@ const list1 = [
     ["Montenegro", 200, 670, 70],
     ["Netherlands", -40, 440, 120],
     ["Norway", -20, 150, 200],
-    ["Poland", 400, 120, 200],
+    ["Poland", 100, 380, 230],
     ["Portugal", -330, 650, 200],
     ["Romania", 210, 510, 220],
     ["Russia", 250, 100, 350],
@@ -45,5 +45,5 @@ const list1 = [
     ["Turkey", 350, 650, 200],
     ["Ukraine", 270, 400, 250],
     ["United Kingdom", -180, 350, 200],
-    ["Vatican", 100, 720, 30]*/
+    ["Vatican", 100, 720, 30]
 ];

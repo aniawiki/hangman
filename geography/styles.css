@@ -4,7 +4,21 @@ body {
     color: #efefef;
     font-family: 'Open Sans', sans-serif;
 }
-h1.logo {
+#logoInfo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+    float: left;
+    text-shadow: 0 0 7px #000000, 0 0 10px #000000;
+    height: 50px;
+}
+#logo {
     font-size: 50px;
     font-weight: 700;
     color: #ddd;
@@ -66,7 +80,7 @@ header.head2 {
     float: left;
 }
 section.to_menu {
-    width: 200px;
+    width: 100px;
     height: 50px;
     float: left;
 }
@@ -78,7 +92,7 @@ section.img {
 .map {
     width: 850px;
     margin-top: 20px;
-    margin-left: 280px;
+    margin-left: 380px;
     border: 10px solid rgb(0, 31, 56);
     position: absolute;
 }
@@ -112,9 +126,17 @@ section.img {
     visibility: hidden;
 }
 #txt2 {
+    font-weight: 300;
     position: fixed;
     top: 450px;
     color: #ff0000;
     white-space: nowrap;
     visibility: hidden;
+}
+#info {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 370px;
+    width: 1000px;
+    line-height: 1.6;
 }
