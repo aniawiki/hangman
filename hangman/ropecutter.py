@@ -10,7 +10,7 @@ def main():
     print(password)
     pattern = str(len(password) * ".")
     #pattern = re.compile(pattern)
-    print(pattern)
+    print(pattern) 
     txt1 = open("dict.txt", "r")
     txt = txt1.read()
     #print(txt)
