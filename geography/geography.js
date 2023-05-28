@@ -14,7 +14,7 @@ function appearCongrats() {
         time2 = Math.round((time2-time2%60)/60) + " minutes " + time2%60;
     message = "You comlished the test in " + time2 + " seconds!"
     alert(message);
-    setTimeout(function() { location.href='menu.html' }, 1000);
+    setTimeout(function() { location.href='index.html' }, 1000);
 }
 
 function gameOver() {
@@ -97,12 +97,21 @@ node.addEventListener("keyup", function (event) {
 
 function setRandomCountry() {
     number = Math.floor(Math.random() * list.length);
+    number = 46
     l = list[number][1] + "px";
     t = list[number][2] + "px";
     w = list[number][3] + "px";
     ptr.style.left = l;
     ptr.style.top = t;
     ptr.style.width = w;
+
+    /*ptr.style.left = "5vw";
+    ptr.style.top = "40vh";
+    ptr.style.width = "11vw";
+
+    ptr.style.left = "19%";
+    ptr.style.top = "65%";
+    ptr.style.width = "10vw";*/
 }
 
 setRandomCountry();

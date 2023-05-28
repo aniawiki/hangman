@@ -90,11 +90,13 @@ section.img {
     background-color: #c23700;
 }
 .map {
-    width: 850px;
-    margin-top: 20px;
-    margin-left: 380px;
+    margin-top: 2vh;
+    margin-left: 25vw;
     border: 10px solid rgb(0, 31, 56);
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 45vw;
 }
 #pointer {
     width: 200px;
@@ -103,12 +105,12 @@ section.img {
     margin-left: 800px;
 }
 #in {
-    left: 700px;
-    top: 900px;
-    width: 400px;
+    left: 40vw;
+    top: max(48vw, 60vh);
+    width: 20vw;
     height: 30px;
     background-color: #8a8a8a;
-    margin: 0 auto;
+    /*margin: 0 auto;
     display: flex; /* or display:grid */
     justify-content: center;
     position: fixed;
