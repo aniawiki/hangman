@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <title>TensorFlow.js browser example</title>
+    
+    <!-- Load TensorFlow.js from a script tag -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="static/index.js"></script>
+  
+  </head>
+  <body>
+    <h1 style="font-size: 32px;">Handwritten digit recognition</h1>
+    <main role="main" class="container">
+      <div id="classifier">
+        <img id="img" src="static/question_mark.png" width=448 height=448 />
+        <label class="" for="file_selector">
+          <p style="font-size: 20px;">Upload New Picture <input id="file_selector" type="file" onchange="changeImage()" accept="image/">
+          </p>
+        </label>
+        <label for="predict">
+          <input id="predict" value="Predict" type="button" onclick="predict()">
+        </label>
+      </div>
+    </main>
+  </body>
+</html>
